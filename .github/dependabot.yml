@@ -14,4 +14,4 @@ updates:
         patterns:
           - "firebase-ios-sdk"
           - "kean/Nuke"
-          - "*"
+          - "https://github.com/google/GoogleSignIn-iOS"
