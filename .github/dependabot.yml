@@ -1,0 +1,17 @@
+version: 2
+
+updates:
+
+  - package-ecosystem: "swift"
+    # doc: https://docs.github.com/en/enterprise-cloud@latest/code-security/dependabot/working-with-dependabot/configuring-access-to-private-registries-for-dependabot#configuring-private-registries
+    registries: "*"
+    directories:
+      - "/test-dependabot-package/*"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 20
+    groups:
+      firebase:
+        applies-to: version-updates # Applies the group rule to version updates
+        patterns:
+          - "firebase-ios-sdk"
