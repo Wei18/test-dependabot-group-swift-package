@@ -13,3 +13,4 @@ updates:
         applies-to: version-updates # Applies the group rule to version updates
         patterns:
           - "firebase-ios-sdk"
+          - "kean/Nuke"
