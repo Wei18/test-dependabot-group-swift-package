@@ -1,7 +1,5 @@
 version: 2
-
 updates:
-
   - package-ecosystem: "swift"
     # doc: https://docs.github.com/en/enterprise-cloud@latest/code-security/dependabot/working-with-dependabot/configuring-access-to-private-registries-for-dependabot#configuring-private-registries
     registries: "*"
