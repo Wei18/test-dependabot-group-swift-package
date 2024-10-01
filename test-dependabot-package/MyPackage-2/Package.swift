@@ -6,6 +6,6 @@ import PackageDescription
 let package = Package(
     name: "MyPackage-2",
     dependencies: [
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "11.3.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "11.2.0"),
     ]
 )
