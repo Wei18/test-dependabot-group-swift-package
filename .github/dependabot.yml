@@ -4,7 +4,7 @@ updates:
     # doc: https://docs.github.com/en/enterprise-cloud@latest/code-security/dependabot/working-with-dependabot/configuring-access-to-private-registries-for-dependabot#configuring-private-registries
     registries: "*"
     directories:
-      - "/test-dependabot-package/*"
+      - "/test-dependabot-group/*"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 20
