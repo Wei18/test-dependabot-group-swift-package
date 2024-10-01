@@ -1,5 +1,5 @@
 {
-  "originHash" : "68f41d87ca0bf9abf3645b88342525114727593d5bad5bf539a79d7c6266d232",
+  "originHash" : "2bf60ed17af78ba9c80eff877643f99af20fd7dd4b67d107951ff73fcf59e6eb",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "194a6706acbd25e4ef639bcaddea16e8758a3e27",
         "version" : "1.2024011602.0"
+      }
+    },
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
       }
     },
     {
@@ -24,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk.git",
       "state" : {
-        "revision" : "1fc52ab0e172e7c5a961f975a76c2611f4f22852",
-        "version" : "11.2.0"
+        "revision" : "f909f901bfba9e27e4e9da83242a4915d6dd64bb",
+        "version" : "11.3.0"
       }
     },
     {
@@ -33,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleAppMeasurement.git",
       "state" : {
-        "revision" : "07a2f57d147d2bf368a0d2dcb5579ff082d9e44f",
-        "version" : "11.1.0"
+        "revision" : "93406fd21b85e66e2d6dbf50b472161fd75c3f1f",
+        "version" : "11.3.0"
       }
     },
     {
@@ -98,6 +107,15 @@
       "state" : {
         "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
         "version" : "2.30910.0"
+      }
+    },
+    {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke",
+      "state" : {
+        "revision" : "311016d972aa751ae8ab0cd5897422ebe7db0501",
+        "version" : "12.7.3"
       }
     },
     {
