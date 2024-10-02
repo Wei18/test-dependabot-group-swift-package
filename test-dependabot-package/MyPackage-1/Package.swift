@@ -9,6 +9,6 @@ let package = Package(
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "11.3.0"),
         .package(url: "https://github.com/kean/Nuke", exact: "12.5.0"),
         .package(url: "https://github.com/Alamofire/Alamofire", exact: "5.7.1"),
-        .package(url: "https://github.com/google/GoogleSignIn-iOS", exact: "7.0.0"),
+        .package(url: "https://github.com/google/GoogleSignIn-iOS", exact: "8.0.0"),
     ]
 )
