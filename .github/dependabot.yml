@@ -12,6 +12,7 @@ updates:
       firebase:
         applies-to: version-updates # Applies the group rule to version updates
         patterns:
-          - "firebase-ios-sdk"
-          - "kean/Nuke"
+          # https://github.com/Wei18/test-dependabot-group-swift-package/pull/13 
           - "github.com/google/GoogleSignIn-iOS"
+          # https://github.com/Wei18/test-dependabot-group-swift-package/pull/5
+          # - "*"
